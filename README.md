@@ -52,7 +52,15 @@ your project.
    for example if we need to create a Pizza store.. we have in our Project the Pizza class , so we pass as parameter to the 'builderDesignPatternToolTips()' the 
    Pizza object as folowing:
 
-        builderDesignPatternToolTips(new Pizza)
+        
+        public class Main
+        {
+            public static void main(String[] args)
+            {
+                DesignPatternsWalkTrough.builderDesignPatternToolTips(new Pizza());
+            }
+        }
+        
 
 3. from this point you can run the project, and you will see General info about the desgn pattern.
 3.1 you will see additional info why we need to use this pattern.
