@@ -19,7 +19,7 @@ your project.
 
 * A Generic method that 'parse' the class name from the Object parameter (the object we want to use Builder pattern on):
 
-    <T> String[] detectClass(T object)
+        <T> String[] detectClass(T object)
   
   
 * A Generic method that builds each Step in the pattern (code re-use):
