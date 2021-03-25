@@ -9,39 +9,39 @@ your project.
 
 * 6 methods in charge of printing in Red highligted Color the Example code of each Step in the Design pattern:
 
-- printExampleOne(String[] arr)
-- printExampleTow(String[] arr)
-- printExampleThree(String[] arr)
-- printExampleFour(String[] arr)
-- printExampleFive(String[] arr)
-- printExampleSix(String[] arr)
+    - printExampleOne(String[] arr)
+    - printExampleTow(String[] arr)
+    - printExampleThree(String[] arr)
+    - printExampleFour(String[] arr)
+    - printExampleFive(String[] arr)
+    - printExampleSix(String[] arr)
 
 
 * A Generic method that 'parse' the class name from the Object parameter (the object we want to use Builder pattern on):
 
-  <T> String[] detectClass(T object)
+    <T> String[] detectClass(T object)
   
   
 * A Generic method that builds each Step in the pattern (code re-use):
 
-  <T> void stepsBuilder(List<String> steps, int stepNumber,T object)  
+    <T> void stepsBuilder(List<String> steps, int stepNumber,T object)  
   
 
 * A CMD menu (code re-use), handles the user inputs + multiple validations.
   if validation fail, i used recursion for user re-type valid values:
 
- int cmdMenu(String[] options, String menuTitle)
+    int cmdMenu(String[] options, String menuTitle)
  
  
 * A validation method for user input (only numbers allowed):
 
-  boolean isNumbersOnly(String input, boolean printError , boolean isDoubleNumbersSupported) 
+    boolean isNumbersOnly(String input, boolean printError , boolean isDoubleNumbersSupported) 
 
 * The main method (Generic one) that gets from the user developer the Object/Class he needs to use the Builder pattern, and from that parameter (the class)
   the method Generic logic makes all the examples and information spesificlly to the class the developr works on.
   meaning all examples will be the real code developr needs to write (the tamplte will be shown by method).
 
-   <T> void builderDesignPatternToolTips(T object)
+    <T> void builderDesignPatternToolTips(T object)
   
   
   # how to use:
