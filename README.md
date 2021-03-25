@@ -9,12 +9,12 @@ your project.
 
 * 6 methods in charge of printing in Red highligted Color the Example code of each Step in the Design pattern:
 
-    - printExampleOne(String[] arr)
-    - printExampleTow(String[] arr)
-    - printExampleThree(String[] arr)
-    - printExampleFour(String[] arr)
-    - printExampleFive(String[] arr)
-    - printExampleSix(String[] arr)
+      - printExampleOne(String[] arr)
+      - printExampleTow(String[] arr)
+      - printExampleThree(String[] arr)
+      - printExampleFour(String[] arr)
+      - printExampleFive(String[] arr)
+      - printExampleSix(String[] arr)
 
 
 * A Generic method that 'parse' the class name from the Object parameter (the object we want to use Builder pattern on):
